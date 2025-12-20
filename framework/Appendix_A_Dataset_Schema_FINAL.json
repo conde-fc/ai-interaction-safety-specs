@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "dataset_name": "Multi-Turn_Interaction_Pattern_Corpus",
+  "description": "Annotated conversation segments documenting AI interaction patterns mapped to 15 clinical distress pathways. Includes tactical mechanisms (Categories A-F) and Integrity Dimension patterns (ID-01 to ID-12).",
+  "created_by": "F.Conde, Independent Researcher",
+  "methodology": "Multi-Turn Interaction Analysis (MTIA)",
+  
+  "taxonomy_structure": {
+    "categories": {
+      "A": "Behavioral Manipulation",
+      "B": "Cognitive Exploitation", 
+      "C": "Emotional Engineering",
+      "D": "Relational Dynamics",
+      "E": "Procedural Failures",
+      "F": "Systemic Patterns"
+    },
+    "integrity_dimension": {
+      "description": "Orthogonal evaluation layer assessing character/integrity",
+      "patterns": "ID-01 through ID-12"
+    },
+    "mechanism_count": "95+ tactical mechanisms + 12 integrity patterns (full catalog available upon request)",
+    "pathway_count": 15
+  },
+
+  "distress_pathways": {
+    "note": "15 pathways mapped to established clinical constructs",
+    "pathway_codes": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O"],
+    "clinical_basis": "Derived from CBT, DBT, attachment theory, and stress physiology literature"
+  },
+
+  "annotation_schema": {
+    "entry_structure": {
+      "id": "Unique identifier (format: MTIA_XXXX)",
+      "source_id": "Reference to source conversation log",
+      "timestamp": "ISO 8601 datetime of interaction",
+      
+      "context": {
+        "user_state": "Documented cognitive/emotional state at time of interaction",
+        "vulnerability_factors": "Array of applicable vulnerability indicators",
+        "interaction_phase": "Position in conversation arc (early/middle/late/extended)",
+        "trigger_domain": "Context category (crisis, professional, personal, technical, etc.)"
+      },
+
+      "interaction": {
+        "user_input": "Verbatim or anonymized user message",
+        "ai_response": "Verbatim AI response being analyzed",
+        "turn_number": "Position in conversation sequence",
+        "preceding_context": "Relevant prior exchange summary"
+      },
+
+      "pattern_annotation": {
+        "mechanism_ids": "Array of mechanism IDs detected",
+        "category": "Primary category (A-F for tactical, ID for integrity)",
+        "pattern_type": "Classification (Tactical | Integrity | Compound)"
+      },
+
+      "pathway_mapping": {
+        "primary_pathways": "Array of pathway codes (A-O)",
+        "pathway_rationales": "Specific explanation of mechanism-pathway activation",
+        "compound_effect": "Description of multi-pathway interaction"
+      },
+
+      "severity_assessment": {
+        "score": "1-5 scale",
+        "level": "Low | Medium | High | Critical",
+        "confidence": "LOW | MEDIUM | HIGH",
+        "rationale": "Justification for severity rating"
+      },
+
+      "evidence": {
+        "trigger_quote": "Minimal quote showing trigger condition",
+        "pattern_quote": "Minimal quote demonstrating observed pattern",
+        "impact_indicators": "Observable impact markers",
+        "counter_evidence": "Factors that might reduce severity assessment"
+      },
+
+      "integrity_assessment": {
+        "applicable": "Boolean - is this an integrity pattern context?",
+        "expectation": "What integrity would require in this context",
+        "observed_behavior": "What actually occurred",
+        "integrity_pass_example": "What a passing response would look like"
+      },
+
+      "remediation": {
+        "safe_alternative": "Recommended safer AI response",
+        "protective_friction": "What friction/intervention should have occurred",
+        "boundary_recommendation": "Suggested boundary for this pattern type"
+      }
+    }
+  },
+
+  "sample_entries": "[REDACTED - Full annotated corpus available to funded collaborators]",
+
+  "quality_standards": {
+    "inter_rater_reliability": {
+      "target": "Cohen's kappa ≥ 0.7",
+      "dimensions": ["Mechanism classification", "Severity rating", "Pathway assignment"]
+    },
+    "clinical_validation": {
+      "requirement": "Minimum 100 entries validated by licensed mental health professional",
+      "focus_areas": ["Pathway accuracy", "Severity calibration", "Rationale validity"]
+    },
+    "evidence_standards": {
+      "HIGH_confidence": "Explicit trigger + clear pattern response + documented impact",
+      "MEDIUM_confidence": "Pattern across multiple exchanges or ambiguous single instance",
+      "LOW_confidence": "Single instance with plausible benign explanation"
+    }
+  },
+
+  "usage_notes": {
+    "intended_applications": [
+      "RLHF training data curation",
+      "Safety evaluation benchmarking", 
+      "Model comparison studies",
+      "Intervention development",
+      "Research on AI-mental health intersection"
+    ],
+    "limitations": [
+      "Dataset reflects specific user population and interaction patterns",
+      "Severity ratings calibrated to documented outcomes",
+      "Pathway mappings require clinical validation for generalization"
+    ],
+    "ethical_requirements": [
+      "All entries anonymized; no PII retained",
+      "Source data processed under informed consent",
+      "Not for use in developing manipulation capabilities"
+    ]
+  },
+
+  "access_note": "Full mechanism catalog, sample entries, and pathway rationales available to research collaborators upon grant funding. Contact researcher for collaboration inquiries."
+}
