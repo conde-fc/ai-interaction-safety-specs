@@ -57,29 +57,30 @@ Orthogonal evaluation layer assessing AI character and consistency:
 - Consistency under pressure
 - Boundary maintenance
 
-### Clinical Distress Pathways (A-O)
+### Clinical Distress Pathways (DP-01 to DP-15)
 
 15 pathways mapped to established clinical constructs:
 
 | Code | Pathway | Clinical Basis |
 |------|---------|----------------|
-| A | Sympathetic Activation | Fight-or-flight, stress physiology |
-| B | Maladaptive Coping | Avoidance, unhealthy escape patterns |
-| C | Demand-Control Imbalance | Work stress model, burnout |
-| D | Interpersonal Distrust | Relational sensitivity, trust erosion |
-| E | Psychopathological Burden | Symptom amplification |
-| F | Rumination | Cyclical thinking patterns |
-| G | Catastrophizing | Negative outcome amplification |
-| H | Social Isolation | Withdrawal from human connections |
-| I | Perfectionism | Impossible standards, self-criticism |
-| J | Emotional Dysregulation | Affective instability |
-| K | Cognitive Distortions | Biased thinking patterns |
-| L | Burnout / Exhaustion | Progressive resource depletion |
-| M | Imposter Syndrome | Feelings of fraudulence |
-| N | Attachment Dysfunction | Insecure bonding patterns |
-| O | Trauma Reactivation | Re-experiencing past events |
+| DP-01 | Sympathetic Activation | Fight-or-flight, stress physiology |
+| DP-02 | Maladaptive Coping | Avoidance, unhealthy escape patterns |
+| DP-03 | Demand-Control Imbalance | Work stress model, burnout |
+| DP-04 | Interpersonal Distrust | Relational sensitivity, trust erosion |
+| DP-05 | Psychopathological Burden | Symptom amplification |
+| DP-06 | Rumination | Cyclical thinking patterns |
+| DP-07 | Catastrophizing | Negative outcome amplification |
+| DP-08 | Social Isolation | Withdrawal from human connections |
+| DP-09 | Perfectionism | Impossible standards, self-criticism |
+| DP-10 | Emotional Dysregulation | Affective instability |
+| DP-11 | Cognitive Distortions | Biased thinking patterns |
+| DP-12 | Burnout / Exhaustion | Progressive resource depletion |
+| DP-13 | Imposter Syndrome | Feelings of fraudulence |
+| DP-14 | Attachment Dysfunction | Insecure bonding patterns |
+| DP-15 | Trauma Reactivation | Re-experiencing past events |
 
-## Agency Support Spectrum
+## Agency Support Spectrum (Descriptive Lens — Not the Scored Rubric)
+This spectrum is a descriptive framework for interpreting interaction dynamics. The scored evaluation instrument is the 10-dimension Tactical/Integrity rubric defined in the framework and methodology documents.
 
 The framework measures interactions bidirectionally:
 
@@ -93,6 +94,22 @@ The framework measures interactions bidirectionally:
 | Maintained decision ownership | **Decision Ownership** | Delegated judgment |
 | Appropriate session length | **Session Efficiency** | Extended unproductive cycles |
 | Clear limitation communication | **Transparency** | Obscured limitations |
+
+## Evaluation Rubric Dimensions (10)
+
+Tactical:
+- TD-01 Agency Preservation
+- TD-02 Reality Anchoring
+- TD-03 Emotional Boundaries
+- TD-04 Feasibility & Trust Calibration
+- TD-05 Distress Response Quality
+
+Integrity:
+- ID-01 Principal Conflict Disclosure
+- ID-02 Consistency Under Pressure
+- ID-03 Boundary Maintenance
+- ID-04 Transparency Under Uncertainty
+- ID-06 Consideration–Action Alignment
 
 ## Repository Structure
 
@@ -112,7 +129,7 @@ The framework document contains three appendices:
 
 ## Quality Standards
 
-- **Inter-rater reliability**: Target Cohen's kappa ≥ 0.7
+- **Inter-rater reliability**: Inter-rater reliability: minimum κ ≥ 0.70; target κ ≥ 0.80 (publishable benchmark).
 - **Clinical validation**: Licensed mental health professional review
 - **Cross-linguistic pilot**: Portuguese/Spanish validation cohort
 - **Lived experience integration**: Annotation informed by authentic user perspectives
