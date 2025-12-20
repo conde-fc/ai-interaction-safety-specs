@@ -81,13 +81,13 @@ Current consumer model tuning prioritizes engagement and perceived helpfulness, 
 From the initial candidate pool, validation confirmed core mechanisms for consistent identification. These are organized into six categories—each representing a dimension of multi-turn interaction dynamics:
 
 | Category | Focus Area | Example Patterns |
-|----------|------------|------------------|
-| DP-01 | Behavioral Dynamics | Engagement optimization, session continuation dynamics |
-| DP-02 | Cognitive Load Patterns | Anchoring, framing, choice architecture |
-| DP-03 | Affective Dynamics | Intensity matching, parasocial dynamics |
-| DP-04 | Relational Dynamics | Trust calibration, dependency formation |
-| DP-05 | Procedural Patterns | State inconsistency, verification gaps |
-| DP-06 | Systemic Patterns | Workflow normalization, ecosystem effects |
+| A | Behavioral Dynamics     | Engagement optimization, session continuation dynamics |
+| B | Cognitive Load Patterns | Anchoring, framing, choice architecture               |
+| C | Affective Dynamics      | Intensity matching, parasocial dynamics               |
+| D | Relational Dynamics     | Trust calibration, dependency formation               |
+| E | Procedural Patterns     | State inconsistency, verification gaps                |
+| F | Systemic Patterns       | Workflow normalization, ecosystem effects             |
+
 
 ### 3. The Agency Support Spectrum
 
