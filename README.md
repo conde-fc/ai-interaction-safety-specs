@@ -21,7 +21,7 @@ This framework emerged from systematic analysis of:
 
 - **900+ conversation sessions** across multiple AI platforms (2023-2025)
 - **21 million+ words** of longitudinal interaction data
-- **7 pattern categories** with 95+ validated mechanisms
+- **6 pattern categories** with 95+ validated mechanisms
 - **15 clinical distress pathways** mapped to established psychological constructs
 
 The methodology—**Multi-Turn Interaction Analysis (MTIA)**—provides reproducible protocols for identifying, measuring, and addressing systematic interaction patterns.
@@ -30,7 +30,7 @@ The methodology—**Multi-Turn Interaction Analysis (MTIA)**—provides reproduc
 
 | Deliverable | Description | Status |
 |-------------|-------------|--------|
-| **Pattern Taxonomy** | 95+ mechanisms across 7 categories + 12 integrity patterns | Complete |
+| **Pattern Taxonomy** | 95+ mechanisms across 6 categories + 12 integrity patterns | Complete |
 | **Evaluation Rubric** | 8-dimension scoring system (0-5 scale) for agency support vs. drift | Complete |
 | **Clinical Pathway Mapping** | 15 pathways linked to Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), attachment theory constructs | Complete |
 | **Annotated Dataset** | 200+ representative excerpts with labels and context | In Progress |
@@ -97,21 +97,18 @@ The framework measures interactions bidirectionally:
 ## Repository Structure
 
 ```
+├── README.md
+├── LICENSE
 ├── framework/
-│   └── Multi-Turn_AI_Interaction_Research_Framework.pdf
-│
-├── appendices/
-│   ├── Appendix_A_Dataset_Schema.json      # MTIA annotation schema
-│   ├── Appendix_B_Safety_Rubric.pdf        # 8-dimension evaluation rubric
-│   └── Appendix_C_Clinical_Mapping.pdf     # 15-pathway clinical mapping
-│
-├── examples/
-│   └── synthetic_examples.json             # Illustrative labeled samples
-│
+│   └── Multi-Turn_AI_Interactions_Research_Framework.docx
 └── docs/
-    ├── METHODS.md                          # Full methodology
-    └── CONTRIBUTING.md                     # Collaboration guidelines
+    └── METHODS.md
 ```
+
+The framework document contains three appendices:
+- **Appendix A:** Dataset Schema (MTIA annotation format)
+- **Appendix B:** Psychogenic Safety Evaluation Rubric
+- **Appendix C:** 15-Pathway Clinical Distress Mapping
 
 ## Quality Standards
 
@@ -129,7 +126,7 @@ This framework aligns with emerging peer-reviewed research on:
 - Cognitive offloading effects (Risko & Gilbert, 2016)
 - RLHF dynamics and sycophancy (Casper et al., 2023)
 
-See Appendix B of the framework document for full citations.
+See the framework document Appendix B for full citations.
 
 ## Intended Applications
 
@@ -154,7 +151,7 @@ See Appendix B of the framework document for full citations.
   title = {Multi-Turn AI Interaction Research Framework},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/[username]/multi-turn-interaction-research}
+  url = {https://github.com/conde-fc/ai-interaction-safety-specs}
 }
 ```
 
