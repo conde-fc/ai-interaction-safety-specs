@@ -100,7 +100,7 @@ The framework measures interactions bidirectionally:
 ├── README.md
 ├── LICENSE
 ├── framework/
-│   └── Multi-Turn_AI_Interactions_Research_Framework.docx
+│   └── Multi-Turn_AI_Interactions_Research_Framework.md
 └── docs/
     └── METHODS.md
 ```
