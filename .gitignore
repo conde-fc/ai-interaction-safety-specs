@@ -2,3 +2,8 @@
 Thumbs.db
 *.tmp
 ~$*.docx
+
+# Local tooling / backups
+fix_repo.py
+*.bak_*
+
