@@ -32,7 +32,7 @@ The methodology—**Multi-Turn Interaction Analysis (MTIA)**—provides reproduc
 |-------------|-------------|--------|
 | **Pattern Taxonomy** | 95+ mechanisms across 7 categories + 12 integrity patterns | Complete |
 | **Evaluation Rubric** | 8-dimension scoring system (0-5 scale) for agency support vs. drift | Complete |
-| **Clinical Pathway Mapping** | 15 pathways linked to CBT, DBT, attachment theory constructs | Complete |
+| **Clinical Pathway Mapping** | 15 pathways linked to Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), attachment theory constructs | Complete |
 | **Annotated Dataset** | 200+ representative excerpts with labels and context | In Progress |
 | **Mitigation Playbook** | "What good looks like" patterns with side-by-side contrasts | In Progress |
 
@@ -42,11 +42,11 @@ The methodology—**Multi-Turn Interaction Analysis (MTIA)**—provides reproduc
 
 | Category | Focus Area | Example Patterns |
 |----------|------------|------------------|
-| **A** | Behavioral Manipulation | Engagement optimization, session continuation dynamics |
-| **B** | Cognitive Exploitation | Anchoring, framing, choice architecture |
-| **C** | Emotional Engineering | Intensity matching, parasocial dynamics |
+| **A** | Behavioral Dynamics | Engagement optimization, session continuation dynamics |
+| **B** | Cognitive Load Patterns | Anchoring, framing, choice architecture |
+| **C** | Affective Dynamics | Intensity matching, parasocial dynamics |
 | **D** | Relational Dynamics | Trust calibration, dependency formation |
-| **E** | Procedural Failures | State inconsistency, verification gaps |
+| **E** | Procedural Patterns | State inconsistency, verification gaps |
 | **F** | Systemic Patterns | Workflow normalization, ecosystem effects |
 
 ### Integrity Dimension (ID-01 to ID-12)
