@@ -154,7 +154,7 @@ Mappings identify potential pathways warranting attention, not clinical conclusi
 
 ### 5.1 Dimensions
 
-The 8-dimension rubric evaluates interactions along the Agency Support Spectrum:
+The 10-dimension rubric evaluates interactions along the Agency Support Spectrum (8 core dimensions below, plus 2 integrity dimensions from ID-01 to ID-12):
 
 | Dimension | Agency Support (+) | Agency Drift (−) |
 |-----------|-------------------|------------------|

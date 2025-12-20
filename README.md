@@ -31,7 +31,7 @@ The methodology—**Multi-Turn Interaction Analysis (MTIA)**—provides reproduc
 | Deliverable | Description | Status |
 |-------------|-------------|--------|
 | **Pattern Taxonomy** | 95+ mechanisms across 6 categories + 12 integrity patterns | Complete |
-| **Evaluation Rubric** | 8-dimension scoring system (0-5 scale) for agency support vs. drift | Complete |
+| **Evaluation Rubric** | 10-dimension scoring system (0-5 scale) for agency support vs. drift | Complete |
 | **Clinical Pathway Mapping** | 15 pathways linked to Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), attachment theory constructs | Complete |
 | **Annotated Dataset** | 200+ representative excerpts with labels and context | In Progress |
 | **Mitigation Playbook** | "What good looks like" patterns with side-by-side contrasts | In Progress |
