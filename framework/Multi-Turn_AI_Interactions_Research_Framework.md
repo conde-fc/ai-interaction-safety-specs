@@ -234,14 +234,15 @@ This research directly addresses the emerging priority of understanding how AI a
 
 ### Taxonomy Structure
 
-| Category | Focus Area |
-|----------|------------|
-| DP-01 | Behavioral Dynamics |
-| DP-02 | Cognitive Load Patterns |
-| DP-03 | Affective Dynamics |
-| DP-04 | Relational Dynamics |
-| DP-05 | Procedural Patterns |
-| DP-06 | Systemic Patterns |
+| Category | Focus Area              | Example Patterns                                    |
+|----------|-------------------------|------------------------------------------------------|
+| **A**    | Behavioral Dynamics     | Engagement optimization, session continuation        |
+| **B**    | Cognitive Load Patterns | Anchoring, framing, choice architecture              |
+| **C**    | Affective Dynamics      | Intensity matching, parasocial dynamics              |
+| **D**    | Relational Dynamics     | Trust calibration, dependency formation              |
+| **E**    | Procedural Patterns     | State inconsistency, verification gaps               |
+| **F**    | Systemic Patterns       | Workflow normalization, ecosystem effects            |
+
 
 **Integrity Dimension:** Orthogonal evaluation layer assessing character/integrity (ID-01 through ID-12)
 
